@@ -1,0 +1,110 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box ;
+} 
+
+@font-face {
+    font-family: Oswald-VariableFont_wght;
+    src: url(../fonds/Oswald-VariableFont_wght.ttf);
+}
+
+
+body{
+
+    background-color: rgb(136, 126, 126);
+
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    font-family: 'Sono', sans-serif;
+}
+
+ol{
+    font-family: 'Roboto-Regular', serif;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    line-height: 1.90;
+    margin: 0px 0px 5px 0px;
+    text-align: center;
+    width: 100%;
+    background: rgb(152, 156, 158);
+    padding: 5px;
+    border: 5px solid rgb(63, 63, 63);
+
+}
+
+main{
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.photo{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9);
+    margin: 20px;
+    background: rgb(134, 131, 131)r;
+    background-position: center;
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    /* box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.37); */
+    transition: all 1s ease;
+
+}
+
+.photo:hover{
+    /* transform: rotate(-180deg) scale(0.1); */
+    transform: translateX(-45px) translateX(-55px) scale(1.09);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.6);
+}
+
+.photo1{
+    background-image: url(../img/img1.jpg.jpg);
+}
+
+.photo2{
+    background-image: url(../img/img2.jpg.jpg);
+}
+
+.photo3{
+    background-image: url(../img/img3.jpg.jpg);
+}
+
+.photo4{
+    background-image: url(../img/img4.jpg.jpeg);
+  
+}
+
+.photo5{
+    background-image: url(../img/img5.jpg.jpg);
+}
+
+.photo6{
+    background-image: url(../img/img6.jpg.jpg);
+}
+
+.photo7{
+    background-image: url(../img/img7.jpg.jpg);
+}
+
+.photo8{
+    background-image: url(../img/img8.jpg.jpg);
+}
+
+
+
+
+
